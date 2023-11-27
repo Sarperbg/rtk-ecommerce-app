@@ -17,6 +17,7 @@ const Home = () => {
         <Category setCategory={setCategory} />
         <Products category={category} sort={sort} />
       </div>
+      
     </div>
   )
 }
